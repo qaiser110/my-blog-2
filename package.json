@@ -1,22 +1,33 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "my-blog-2",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My Blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Qaiser Abbas <qaiser110@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.58",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-catch-links": "^2.1.3",
+    "gatsby-plugin-feed": "^2.3.6",
+    "gatsby-plugin-google-analytics": "^2.1.7",
     "gatsby-plugin-manifest": "^2.2.5",
     "gatsby-plugin-offline": "^2.2.5",
     "gatsby-plugin-react-helmet": "^3.1.3",
     "gatsby-plugin-sharp": "^2.2.11",
+    "gatsby-plugin-sitemap": "^2.2.6",
     "gatsby-plugin-twitter": "^2.1.2",
     "gatsby-plugin-typography": "^2.3.2",
+    "gatsby-remark-autolink-headers": "^2.1.3",
+    "gatsby-remark-copy-linked-files": "^2.1.6",
+    "gatsby-remark-embed-video": "^1.7.1",
+    "gatsby-remark-images": "^3.1.12",
+    "gatsby-remark-prismjs": "^3.3.5",
+    "gatsby-remark-responsive-iframe": "^2.2.4",
+    "gatsby-remark-smartypants": "^2.1.2",
     "gatsby-source-filesystem": "^2.1.9",
     "gatsby-transformer-remark": "^2.6.14",
     "gatsby-transformer-sharp": "^2.2.6",
+    "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -25,15 +36,11 @@
     "react-twitter-widgets": "^1.7.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "typography-theme-fairy-gates": "^0.16.19",
-    "un": "0.0.0"
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "dev": "npm run develop",

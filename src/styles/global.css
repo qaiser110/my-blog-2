@@ -148,65 +148,7 @@
 .share-count {
   text-align: center;
 }
-code[class*='language-'],
-pre[class*='language-'] {
-  color: #fff;
-  background: none;
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
-  text-align: left;
-  text-shadow: 0 -0.1em 0.2em #000;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.5;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
-:not(pre) > code[class*='language-'],
-pre[class*='language-'] {
-  background: #141414;
-}
-pre[class*='language-'] {
-  border-radius: 0.5em;
-  border: 0.3em solid #545454;
-  box-shadow: inset 1px 1px 0.5em #000;
-  margin: 0.5em 0;
-  overflow: auto;
-  padding: 1em;
-}
-pre[class*='language-']::-moz-selection {
-  background: #27292a;
-}
-pre[class*='language-']::selection {
-  background: #27292a;
-}
-code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection,
-pre[class*='language-']::-moz-selection,
-pre[class*='language-'] ::-moz-selection {
-  text-shadow: none;
-  background: hsla(0, 0%, 93%, 0.15);
-}
-code[class*='language-']::selection,
-code[class*='language-'] ::selection,
-pre[class*='language-']::selection,
-pre[class*='language-'] ::selection {
-  text-shadow: none;
-  background: hsla(0, 0%, 93%, 0.15);
-}
-:not(pre) > code[class*='language-'] {
-  border-radius: 0.3em;
-  border: 0.13em solid #545454;
-  box-shadow: inset 1px 1px 0.3em -0.1em #000;
-  padding: 0.15em 0.2em 0.05em;
-  white-space: normal;
-}
+
 .token.cdata,
 .token.comment,
 .token.doctype,
@@ -396,15 +338,6 @@ pre[data-line] {
 }
 .margin-top-0 {
   margin-top: 0 !important;
-}
-.gatsby-highlight-code-line {
-  background-color: #2b4348;
-  display: block;
-  margin-right: -1em;
-  margin-left: -1em;
-  padding-right: 1em;
-  padding-left: 0.75em;
-  border-left: 0.25em solid #f99;
 }
 .pager {
   text-align: center;

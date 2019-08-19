@@ -31,7 +31,7 @@ const Index = ({ children }) => {
       <div
         style={{
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(32),
           margin: `0 auto`,
           paddingTop: `80px`,
         }}

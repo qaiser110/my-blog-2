@@ -7,6 +7,7 @@
 import React from 'react'
 import "./src/styles/global.css"
 import Index from './src/components/layout'
+import 'prismjs/themes/prism-solarizedlight.css'
 
 export const wrapPageElement = ({ element, props }) => {
   // props provide same data to Layout as Page element will get
