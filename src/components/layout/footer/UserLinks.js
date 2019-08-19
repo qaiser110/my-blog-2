@@ -6,7 +6,7 @@ class UserLinks extends Component {
     const { labeled } = this.props
     return userLinks.map(link => (
       <li key={link.label}>
-        <a target="_blank" href={link.url}>
+        <a target="_blank" rel="noopener noreferrer" href={link.url}>
           {labeled ? link.label : ''}
         </a>
       </li>

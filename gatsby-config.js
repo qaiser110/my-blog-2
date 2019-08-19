@@ -2,9 +2,9 @@ const config = require('./src/data/SiteConfig')
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Qaiser Abbas`,
+    title: config.siteTitle,
+    description: config.siteDescription,
+    author: config.siteAuthor,
     siteUrl: config.siteUrl,
     rssMetadata: {
       site_url: config.siteUrl,
@@ -17,6 +17,8 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-twitter',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

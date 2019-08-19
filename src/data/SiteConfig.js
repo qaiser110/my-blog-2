@@ -1,5 +1,6 @@
 module.exports = {
   blogPostDir: 'sample-posts', // The name of directory that contains your posts.
+  siteAuthor: 'Qaiser Abbas', // Username to display in the author segment.
   siteTitle: 'My Gatsby Site', // Site title.
   siteTitleAlt: 'My Gatsby Site', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
@@ -11,6 +12,7 @@ module.exports = {
   googleAnalyticsID: 'UA-47311644-5', // GA tracking ID.
   disqusShortname: 'advanced-starter', // Disqus shortname.
   postDefaultCategoryID: 'Tech', // Default category for posts.
+
   userName: 'Qaiser Abbas', // Username to display in the author segment.
   userTwitter: 'qaiser110', // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: 'North Pole, Earth', // User location to display in the author segment.

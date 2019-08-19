@@ -7,8 +7,6 @@ import { graphql } from 'gatsby'
 
 class CatsPageRoute extends React.Component {
   render() {
-    console.log('----this.props.data.allMarkdownRemark---')
-    console.log(this.props.data)
     return (
       <div>
         <Helmet title={siteTitle + ' | Posts Series'} />
